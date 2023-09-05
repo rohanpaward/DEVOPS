@@ -1,0 +1,75 @@
+
+
+   body {
+    color: white;
+    background-image: url(signup.jpeg);
+    font-family: sans-serif;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .input {
+    font-family: 'Bungee Inline', cursive;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    outline: none;
+    box-shadow: 0 0 10px #ccc;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  .submit {
+    font-family: 'Bungee Inline', cursive;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    -webkit-animation: glow 1s ease-in-out infinite;
+    -moz-animation: glow 1s ease-in-out infinite;
+    animation: glow 1s ease-in-out infinite;
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #fff;
+    }
+    50% {
+      text-shadow: 0 0 20px #fff;
+    }
+    100% {
+      text-shadow: 0 0 10px #fff;
+    }
+  }
+  
+  @keyframes sign-up-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .sign-up {
+    font-family: 'Bungee Inline', cursive;
+    animation: sign-up-animation 1s ease-in-out;
+    font-size: 2em;
+    font-weight: bold;
+  }

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+    input[type="password"] 
+    {
+    padding: 10px;
+    
+    }
+
+    .back {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: repeat;
+        animation: changeBackground 10s infinite;
+        background-image: url(walp.jpg);
+      }
+      
+      @keyframes changeBackground {
+        0% {
+          background-image: url(walp.jpg);
+        }
+        33% {
+          background-image: url(image2Main.jpg);
+        }
+        66% {
+          background-image: url(image3Main.jpg);
+        }
+      }

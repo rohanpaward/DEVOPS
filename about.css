@@ -1,0 +1,44 @@
+body {
+    background-image: url(abb.jpeg);
+    
+    display: flex;
+    color: white;
+    
+    font-family: 'Averia Serif Libre', cursive;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .content img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
+  .content h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  h3{
+    font-size: x-large;
+    font-family: 'Averia Serif Libre', cursive;
+  }
+  
+  
